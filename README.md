@@ -1,5 +1,5 @@
 
-# TTS - Text to Speech
+## TTS - Text to Speech
 
 IndianTTS is a unique company based in India that aims to create a wide range of Artificial Intelligence enabled services and products such as text to speech and speech to text generator.
 
@@ -45,4 +45,36 @@ What ever you type in (text=)  parameter its speak out using this API**
 10. Telugu Language TTS API:  
 
     http://ivrapi.indiantts.co.in/tts?type=indiantts&text=యాంటీఆక్సిడెంట్లు చాలా అవసరమని గుర్తించి రంగురంగుల కూరగాయలు, పండ్లు&api_key=XXXXX&user_id=XXXXX&action=play&numeric=hcurrency&lang=te_female_v1&ver=2
+
+## Detail for POST command:-
+
+Host= http://ivrapi.indiantts.co.in/tts
+
+```
+Params
+{
+"type":"indiantts",
+"text":"एक ट्वीट मे उन्होने यह भी कहा था",
+"api_key":"XXXXX",
+"user_id":"XXXXX",
+"numeric":"hcurrency",
+"lang":"hi_female_v1",
+"samplerate": "8000",
+"ver":"2",
+"action": "play"
+}
+```
+**Please pass Language value as per below:-**
+* For Hindi and English, use lang  &lang=hi_female_v1
+* For Gujarati, use lang   &lang=gu_female_v1
+* For Marathi, use lang   &lang=mr_female_v1
+* For Bengali, use lang   &lang=bn_female_v1
+* For Odia use, lang   &lang=or_female_v1
+* For Kannada use, lang   &lang=kn_female_v1
+* For Malayalam, use lang   &lang=ml_female_v1
+* For Tamil, use lang   &lang=ta_female_v1
+* For Telugu, use lang   &lang=te_female_v1
+
+
+
 
