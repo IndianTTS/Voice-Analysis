@@ -93,44 +93,44 @@ Params
 1. **&text**
    
     Usage:- dynamic input,  you can type any text in this parameter.
-https://<Your Server IP>/tts?text=this is demo
-- In text & special character not allow. 
-- In text you pass as full Capital then TTS spell out single-single character,
-- If you want to spell some ID like  AKPORT  then you can use as full capital to spell single-single character.
+    https://<Your Server IP>/tts?text=this is demo  
+    -In text & special character not allow.   
+    -In text you pass as full Capital then TTS spell out single-single character   
+    -If you want to spell some ID like  AKPORT  then you can use as full capital to spell single-single character.
 
 2. **&numeric=currency**
    
     Usage:- Using this parameter you get output in currency.
-https://<Your Server IP>/tts?text=78954&numeric=currency
+    https://<Your Server IP>/tts?text=78954&numeric=currency
 
 3. **&numeric=digit**
    
     Usage:- Using this parameter you get output in digit.
-https://<Your Server IP>/tts?text=78588954&numeric=digit
+    https://<Your Server IP>/tts?text=78588954&numeric=digit
 
 4. **Date and Time Support**
 
     Date:-  / and – both support
-Allow  DD-MM-YYY Y    and  YYYY-MM-DD
-Allow  DD/MM/YYYY and YYYY/MM/DD
-https://<Your Server IP>/tts?text=this is done on 22-12-2017.
-https://<Your Server IP>/tts?text=this is done on 2017/12/22.
+    Allow  DD-MM-YYY Y    and  YYYY-MM-DD
+    Allow  DD/MM/YYYY and YYYY/MM/DD
+    https://<Your Server IP>/tts?text=this is done on 22-12-2017.
+    https://<Your Server IP>/tts?text=this is done on 2017/12/22.
 
     Time:-   : colon needed between HH and MM
-Allow HH:MM
- https://<Your Server IP>/tts?text=this is done on 10:50 AM.
+    Allow HH:MM
+    https://<Your Server IP>/tts?text=this is done on 10:50 AM.
 
 5. **&samplerate**
    
     &samplerate=8000     its generate audio in 8Khz
-&samplerate=16000   its generate audio in 16Khz
-&samplerate=32000   its generate audio in 32Khz
+    &samplerate=16000   its generate audio in 16Khz
+    &samplerate=32000   its generate audio in 32Khz
 
 6. **&speed**
 
     By default speed = 1  
-If you want slow speed then use &speed=0.90  or &speed=0.80
-If you want fast speed then use &speed=1.1  or &speed=1.2
+    If you want slow speed then use &speed=0.90  or &speed=0.80
+    If you want fast speed then use &speed=1.1  or &speed=1.2
 
 7. **&pitch**  
 
