@@ -18,15 +18,16 @@ Vspeech.ai's talker platform is an AI-Powered, Voice Analysis System that enable
 - Model customization support
 
 ### Talker API Details
-    • URL:- https://k7lb7nopni.execute-api.ap-south-1.amazonaws.com/webhook
-    • Method:- POST
-    • Header:-
+- URL:- https://k7lb7nopni.execute-api.ap-south-1.amazonaws.com/webhook
+- Method:- POST
+    - Header:-
 
 | Parameter | Required | Value |
 | -------- | -------- | -------- |
 | Content-Type | true | application/json |
 
-    • Params:-
+- Params:-
+
 | Parameter | Type | Required | Value |
 | -------- | -------- | -------- | -------- |
 | audio_url | string | true |   Audio file URL  - Only wav and mp3 audio format supported. |
@@ -48,6 +49,6 @@ Vspeech.ai's talker platform is an AI-Powered, Voice Analysis System that enable
                                         "groups": Groups/Campaign name
                                     }
 ```
-    • Success Response:-
-        - Code: 200 
-        - Content: Object
+- Success Response:-
+    - Code: 200 
+    - Content: Object
