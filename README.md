@@ -83,14 +83,14 @@ Vspeech.ai's talker platform is an AI-Powered, Voice Analysis System that enable
 | Invalid modelID OR Voice classifier.     |     Model Id OR Voice classifier not valid     |
 
 #### Error Response:-
-Code: 403 
-Content: { error : "Sending 403 ("Forbidden") response" } 
+* Code: 403 
+* Content: { error : "Sending 403 ("Forbidden") response" } 
 
-Code: 404 
-Content: { error : "Sending 404 ("Not Found") response" } 
+1. Code: 404 
+1. Content: { error : "Sending 404 ("Not Found") response" } 
 
-Code: 500 
-Content: { error : "Sending empty 500 ("Server Error") response" } 
+- Code: 500 
+- Content: { error : "Sending empty 500 ("Server Error") response" } 
 	
 
 
