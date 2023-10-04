@@ -52,3 +52,32 @@ Vspeech.ai's talker platform is an AI-Powered, Voice Analysis System that enable
 - Success Response:-
     - Code: 200 
     - Content: Object
+
+#### Acknowledgement Status:-
+
+1. Success: Send success acknowledgement
+```
+{
+    status: 'success',
+    message: ‘Request Received Successfully.’
+    timestamp: < Timestamp >
+    params: < Requested params >
+}
+```
+2. Fail: Send acknowledgement with error
+```
+{
+    status: 'fail',
+    error: <Error message>,
+    timestamp: < Timestamp >
+}
+```
+
+| Error Message | Info |
+| -------- | -------- |
+| Missing parameters in querystring : < Invalid/Missing parameters > | Parameters error |
+| Only wav and mp3 audio format supported.     |     Audio format error     |
+| nvalid audio url.     |     Audio not found or not accessible     |
+| Unauthorized access.     |     Invalid API key     |
+| ID already exists.     |     Request ID already exists     |
+| Invalid modelID OR Voice classifier.     |     Model Id OR Voice classifier not valid     |
