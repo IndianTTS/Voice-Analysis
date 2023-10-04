@@ -48,3 +48,6 @@ Vspeech.ai's talker platform is an AI-Powered, Voice Analysis System that enable
                                         "groups": Groups/Campaign name
                                     }
 ```
+    • Success Response:-
+        - Code: 200 
+        - Content: Object
