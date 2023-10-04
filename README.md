@@ -86,8 +86,8 @@ Vspeech.ai's talker platform is an AI-Powered, Voice Analysis System that enable
 * Code: 403 
 * Content: { error : "Sending 403 ("Forbidden") response" } 
 
-1. Code: 404 
-1. Content: { error : "Sending 404 ("Not Found") response" } 
+- Code: 404 
+- Content: { error : "Sending 404 ("Not Found") response" } 
 
 - Code: 500 
 - Content: { error : "Sending empty 500 ("Server Error") response" } 
